@@ -213,8 +213,6 @@ ___
 ___
 Guys, I’d really appreciate any support right now. I’m in a tough spot:
 
-[![Boosty](https://img.shields.io/badge/Boosty-Support-orange?style=for-the-badge)](https://boosty.to/danzelus)
-[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/danzelus)
 
 
 ## 📜 Credits
