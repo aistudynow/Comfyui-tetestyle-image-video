@@ -3,23 +3,31 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "comfyui-tetestyle-image-video"
-version = "1.2.0"
+name = "Comfyui-tetestyle-image-video"
+version = "1.0.1"
 description = "TeleStyle custom nodes for ComfyUI video style transfer and official Qwen image style transfer."
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
+dependencies = [
+  "diffusers>=0.29.0",
+  "transformers",
+  "huggingface_hub",
+  "omegaconf",
+  "safetensors",
+  "ftfy",
+  "regex",
+  "torchvision",
+  "opencv-python",
+  "torch",
+]
 classifiers = [
   "Operating System :: OS Independent",
   "Environment :: GPU :: NVIDIA CUDA",
 ]
-dynamic = ["dependencies"]
 
 [project.urls]
 Repository = "https://github.com/aistudynow/Comfyui-tetestyle-image-video"
 "Bug Tracker" = "https://github.com/aistudynow/Comfyui-tetestyle-image-video/issues"
-
-[tool.setuptools.dynamic]
-dependencies = { file = ["requirements.txt"] }
 
 [tool.comfy]
 PublisherId = "aistudynow"
