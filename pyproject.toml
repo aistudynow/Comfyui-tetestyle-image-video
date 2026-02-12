@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tele-style"
-version = "1.0.0"
+version = "1.1.0"
 description = "TeleStyle custom nodes for ComfyUI video style transfer and official Qwen image style transfer."
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
