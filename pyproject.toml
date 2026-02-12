@@ -26,8 +26,8 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle"
-"Bug Tracker" = "https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle/issues"
+Repository = "https://github.com/aistudynow/Comfyui-tetestyle-image-video"
+"Bug Tracker" = "https://github.com/aistudynow/Comfyui-tetestyle-image-video/issues"
 
 [tool.comfy]
 PublisherId = "neurodanzelus-cmd"
