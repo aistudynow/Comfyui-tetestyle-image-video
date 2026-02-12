@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tele-style"
+version = "1.0.0"
+description = "TeleStyle custom nodes for ComfyUI video style transfer and official Qwen image style transfer."
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+  "diffusers>=0.29.0",
+  "transformers",
+  "huggingface_hub",
+  "omegaconf",
+  "safetensors",
+  "ftfy",
+  "regex",
+  "torchvision",
+  "opencv-python",
+  "torch",
+]
+classifiers = [
+  "Operating System :: OS Independent",
+  "Environment :: GPU :: NVIDIA CUDA",
+]
+
+[project.urls]
+Repository = "https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle"
+"Bug Tracker" = "https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle/issues"
+
+[tool.comfy]
+PublisherId = "neurodanzelus-cmd"
+DisplayName = "TeleStyle"
+requires-comfyui = ">=0.3.0"
