@@ -58,7 +58,7 @@ cd ComfyUI/custom_nodes/
 Clone this repository:
 
 ```bash
-git clone https://github.com/neurodanzelus-cmd/ComfyUI-TeleStyle.git
+git clone https://github.com/aistudynow/Comfyui-tetestyle-image-video.git
 ```
 
 Install dependencies:
