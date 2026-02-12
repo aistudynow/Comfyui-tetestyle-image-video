@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Comfyui-tetestyle-image-video"
-version = "1.0.1"
+version = "1.0.2"
 description = "TeleStyle custom nodes for ComfyUI video style transfer and official Qwen image style transfer."
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
@@ -31,5 +31,14 @@ Repository = "https://github.com/aistudynow/Comfyui-tetestyle-image-video"
 
 [tool.comfy]
 PublisherId = "aistudynow"
+PackageId = "Comfyui-tetestyle-image-video"
 DisplayName = "Comfyui-tetestyle-image-video"
+Description = "TeleStyle custom nodes for ComfyUI video style transfer and official Qwen image style transfer."
+Repository = "https://github.com/aistudynow/Comfyui-tetestyle-image-video"
 requires-comfyui = ">=0.3.0"
+
+[tool.comfy.nodes]
+TeleStyleLoader = "tele_style_node:TeleStyleLoader"
+TeleStyleVideoInference = "tele_style_node:TeleStyleVideoInference"
+TeleStyleImageModelLoader = "tele_style_node:TeleStyleImageModelLoader"
+TeleStyleOfficialImageInference = "tele_style_node:TeleStyleOfficialImageInference"
