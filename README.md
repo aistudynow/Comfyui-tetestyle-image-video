@@ -1,7 +1,5 @@
 # ComfyUI-TeleStyle
 
-<img width="842" height="553" alt="image" src="https://github.com/user-attachments/assets/ebc5b3e6-eaa9-4a8e-a4a5-fdce5608ea70" />
-
 #
 
 An unofficial, streamlined, and highly optimized ComfyUI implementation of [TeleStyle](https://github.com/Tele-AI/TeleStyle).
