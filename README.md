@@ -10,7 +10,8 @@ This node is specifically designed for **Video Style Transfer** using the **Wan2
 * **GPU VRAM**: 6GB minimum
 * **Disk Space**: ~6GB for models and weights
 
-
+(https://aistudynow.com/how-to-fix-slow-style-transfer-in-comfyui-run-telestyle-on-6gb-vram/)
+Youtube Tutorial: (https://www.youtube.com/watch?v=yHbaFDF083o)
 
 ## ✨ Key Features
 
